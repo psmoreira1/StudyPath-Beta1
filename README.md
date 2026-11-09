@@ -1,6 +1,7 @@
 This is Study Path. A calendar app to help students organize and balance their personal and professional lives together, coordinating studies, work and personal life.
 
 It is intended to have 5 main pages.
+
 Home page - Jacob
 Calendar page - Pedro (owner of repository)
 Map page - Nicholas
