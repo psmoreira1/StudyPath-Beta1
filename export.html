@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study Path – Export</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <h1>Study Path</h1>
+        <span class="brand-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+        </span>
+      </div>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" class="pill">Home</a>
+        <a href="calendar.html" class="pill">Calendar</a>
+        <a href="map.html" class="pill">Map</a>
+        <a href="group-work.html" class="pill">Group Work</a>
+        <a href="export.html" class="pill pill--active" aria-current="page">Export</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <!-- Left: options -->
+      <section class="options">
+        <h2 class="section-label">Include in export</h2>
+        <ul class="include-list">
+          <li>
+            <label class="include-row">
+              <span class="icon-tile icon-tile--indigo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+              </span>
+              <span class="include-text">
+                <strong>Schedule</strong>
+                <small>Deadlines, exams, and campus events</small>
+              </span>
+              <input type="checkbox" class="check" checked>
+            </label>
+          </li>
+          <li>
+            <label class="include-row">
+              <span class="icon-tile icon-tile--green">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+              </span>
+              <span class="include-text">
+                <strong>Class times</strong>
+                <small>Weekly lectures, labs, and seminars</small>
+              </span>
+              <input type="checkbox" class="check" checked>
+            </label>
+          </li>
+          <li>
+            <label class="include-row">
+              <span class="icon-tile icon-tile--amber">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"/><path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/></svg>
+              </span>
+              <span class="include-text">
+                <strong>Study sessions</strong>
+                <small>Planned focus blocks and review time</small>
+              </span>
+              <input type="checkbox" class="check" checked>
+            </label>
+          </li>
+        </ul>
+
+        <h2 class="section-label">Date range</h2>
+        <div class="segmented" role="radiogroup" aria-label="Date range">
+          <input type="radio" name="range" id="range-term" checked>
+          <label for="range-term">This term</label>
+          <input type="radio" name="range" id="range-custom">
+          <label for="range-custom">Custom</label>
+        </div>
+        <p class="range-note">
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Fall term · Aug 26 – Dec 13, 2026
+        </p>
+
+        <h2 class="section-label">Format</h2>
+        <div class="formats" role="radiogroup" aria-label="Format">
+          <label class="format-card">
+            <input type="radio" name="format" checked>
+            <span class="format-top">
+              <span class="format-icon format-icon--red">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
+              </span>
+              <span class="radio-dot"></span>
+            </span>
+            <strong>PDF</strong>
+            <small>Print or submit</small>
+          </label>
+          <label class="format-card">
+            <input type="radio" name="format">
+            <span class="format-top">
+              <span class="format-icon">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M12 13v5M9.5 15.5h5"/></svg>
+              </span>
+              <span class="radio-dot"></span>
+            </span>
+            <strong>Calendar file</strong>
+            <small>.ics for any app</small>
+          </label>
+        </div>
+      </section>
+
+      <!-- Right: summary + action -->
+      <section class="summary">
+        <div class="ready-card">
+          <div class="ready-head">
+            <span class="ready-icon">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="m9 15 2 2 4-4"/></svg>
+            </span>
+            <div>
+              <strong>Ready to export</strong>
+              <small>Fall 2026 · 3 content types · PDF</small>
+            </div>
+          </div>
+          <div class="ready-stats">
+            <span>17 weeks</span>
+            <span>42 classes</span>
+            <span>28 study sessions</span>
+          </div>
+        </div>
+
+        <div class="action-panel">
+          <button class="export-btn" id="export-btn" type="button">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+            Export &amp; share
+          </button>
+          <p class="privacy">
+            <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+            Your calendar data stays private
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Beta 1 october 1st 2026</footer>
+  </div>
+  <script src="export.js"></script>
+</body>
+</html>
