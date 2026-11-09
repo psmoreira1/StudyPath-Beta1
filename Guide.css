@@ -1,0 +1,22 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey-button: #d9d9d9;
+  --grey-road-bg: #c8c8c8;
+  --pink-building: #f8d3d3;
+  --red: #d42020;
+  --dark-red: #c41414;
+  --route-blue: #7b8ff0;
+  --parking-blue: #4a52d6;
+  --notify-red: #f0382c;
+}
+.text-wrapper-small,
+.calculus, .walk, .bike, .car,
+.statistics, .data-science, .football,
+.text-wrapper-6, .text-wrapper-9, .text-wrapper-10, .text-wrapper-11,
+.text-wrapper-13, .text-wrapper-14 {
+  font-size: 15px;
+  line-height: 1.3;
+  color: var(--black);
+  white-space: nowrap;
+}
