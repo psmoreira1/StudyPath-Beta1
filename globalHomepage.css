@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Afacad&family=Belanosima&family=Huninn&family=Josefin+Sans&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 * {
   -webkit-font-smoothing: antialiased;
@@ -15,34 +16,4 @@ button:focus-visible {
 }
 a {
   text-decoration: none;
-}
-/* @FONTWARNING[{"type": "restricted", "family": "Josefin Sans-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "Josefin Sans-Regular";
-  src: local("Josefin Sans-Regular");
-}
-/* @FONTWARNING[{"type": "restricted", "family": "AR One Sans-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "AR One Sans-Regular";
-  src: local("AR One Sans-Regular");
-}
-/* @FONTWARNING[{"type": "restricted", "family": "Afacad-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "Afacad-Regular";
-  src: local("Afacad-Regular");
-}
-/* @FONTWARNING[{"type": "restricted", "family": "Huninn-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "Huninn-Regular";
-  src: local("Huninn-Regular");
-}
-/* @FONTWARNING[{"type": "restricted", "family": "Belanosima-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "Belanosima-Regular";
-  src: local("Belanosima-Regular");
 }
