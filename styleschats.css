@@ -7,12 +7,10 @@
   --green: #7bdc78;
   --lime: #c4dc78;
   --line: #111111;
+  color-scheme: light;
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { --bg: #ffffff; --ink: #111111; }
 }
 *, *::before, *::after { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
@@ -99,7 +97,7 @@ body {
   width: calc(26 * var(--px)); margin-right: calc(2 * var(--px)); margin-bottom: .15em;
   border-bottom: 1px solid var(--line);
 }
-.card { position: absolute; }
+.card { position: absolute; border: 1.5px solid var(--line); }
 .red { background: var(--red); }
 .green { background: var(--green); }
 
