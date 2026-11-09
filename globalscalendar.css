@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&family=Josefin+Sans:wght@400;700&family=Huninn&family=AR+One+Sans&display=swap");
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&family=Josefin+Sans:wght@400;700&family=Huninn&display=swap");
+html,
+body {
+  margin: 0px;
+  min-height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Afacad-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Afacad-Regular";
+  src: local("Afacad-Regular");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Afacad-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Afacad-Bold";
+  src: local("Afacad-Bold");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "AR One Sans-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "AR One Sans-Regular";
+  src: local("AR One Sans-Regular");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Josefin Sans-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Josefin Sans-Regular";
+  src: local("Josefin Sans-Regular");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Huninn-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Huninn-Regular";
+  src: local("Huninn-Regular");
+}

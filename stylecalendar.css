@@ -1,0 +1,1198 @@
+.box {
+  width: 1440px;
+  height: 1024px;
+}
+
+.box .group {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+}
+
+.box .pedro-soares-moreira {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.box .rectangle {
+  position: absolute;
+  top: 261px;
+  left: 1040px;
+  width: 212px;
+  height: 106px;
+  background-color: #db7676;
+  opacity: 0.8;
+}
+
+.box .div {
+  position: absolute;
+  top: 316px;
+  left: 1255px;
+  width: 188px;
+  height: 424px;
+  background-color: #db76ce;
+  opacity: 0.8;
+}
+
+.box .rectangle-2 {
+  position: absolute;
+  top: 261px;
+  left: 0;
+  width: 188px;
+  height: 424px;
+  background-color: #db76ce;
+  opacity: 0.8;
+}
+
+.box .rectangle-3 {
+  position: absolute;
+  top: 261px;
+  left: 616px;
+  width: 212px;
+  height: 106px;
+  background-color: #db7676;
+  opacity: 0.8;
+}
+
+.box .rectangle-4 {
+  position: absolute;
+  top: 261px;
+  left: 191px;
+  width: 207px;
+  height: 106px;
+  background-color: #db7676;
+  opacity: 0.8;
+}
+
+.box .icon {
+  position: absolute;
+  top: 23px;
+  left: 1361px;
+  width: 60px;
+  height: 49px;
+}
+
+.box .rectangle-5 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 51px;
+  height: 5px;
+  background-color: #555555;
+}
+
+.box .rectangle-6 {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 51px;
+  height: 5px;
+  background-color: #555555;
+}
+
+.box .rectangle-7 {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  width: 51px;
+  height: 5px;
+  background-color: #555555;
+}
+
+.box .ellipse {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  width: 19px;
+  height: 19px;
+  background-color: #ff5454;
+  border-radius: 9.5px;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  top: 125px;
+  left: 148px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  top: 188px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-3 {
+  position: absolute;
+  top: 293px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-4 {
+  position: absolute;
+  top: 398px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-5 {
+  position: absolute;
+  top: 506px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-6 {
+  position: absolute;
+  top: 611px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-7 {
+  position: absolute;
+  top: 716px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-8 {
+  position: absolute;
+  top: 813px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-9 {
+  position: absolute;
+  top: 914px;
+  left: 3px;
+  width: 44px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-10 {
+  left: 9px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  top: 104px;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-11 {
+  left: 193px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  top: 104px;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-12 {
+  left: 616px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  top: 104px;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-13 {
+  left: 830px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  top: 104px;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-14 {
+  left: 1263px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  top: 104px;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-15 {
+  left: 408px;
+  font-family: "Afacad-Bold", Helvetica;
+  font-weight: 700;
+  position: absolute;
+  top: 104px;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-16 {
+  position: absolute;
+  top: 125px;
+  left: 350px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-17 {
+  position: absolute;
+  top: 125px;
+  left: 573px;
+  font-family: "Afacad-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-18 {
+  position: absolute;
+  top: 125px;
+  left: 779px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-19 {
+  position: absolute;
+  top: 125px;
+  left: 995px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-20 {
+  position: absolute;
+  top: 125px;
+  left: 1222px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-21 {
+  position: absolute;
+  top: 125px;
+  left: 1402px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .chem {
+  position: absolute;
+  top: 261px;
+  left: 193px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-22 {
+  position: absolute;
+  top: 261px;
+  left: 7px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .chem-chem {
+  top: 263px;
+  left: 623px;
+  position: absolute;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .chem-2 {
+  top: 261px;
+  left: 1046px;
+  position: absolute;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .rectangle-8 {
+  position: absolute;
+  top: 27px;
+  left: 1018px;
+  width: 287px;
+  height: 50px;
+  background-color: #d9d9d9;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.box .text-wrapper-23 {
+  position: absolute;
+  top: 29px;
+  left: 1069px;
+  font-family: "AR One Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #797979;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-2 {
+  position: absolute;
+  top: 27px;
+  left: 290px;
+  width: 201px;
+  height: 50px;
+}
+
+.box .rectangle-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 199px;
+  height: 50px;
+  background-color: #d9d9d9;
+}
+
+.box .text-wrapper-24 {
+  position: absolute;
+  top: 3px;
+  left: 67px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-3 {
+  position: absolute;
+  top: 27px;
+  left: 516px;
+  width: 245px;
+  height: 50px;
+}
+
+.box .rectangle-10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 243px;
+  height: 50px;
+  background-color: #d9d9d9;
+}
+
+.box .text-wrapper-25 {
+  position: absolute;
+  top: 3px;
+  left: 31px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-4 {
+  position: absolute;
+  top: 27px;
+  left: 786px;
+  width: 201px;
+  height: 50px;
+}
+
+.box .text-wrapper-26 {
+  position: absolute;
+  top: 3px;
+  left: 43px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .vertical-lines {
+  position: absolute;
+  top: 100px;
+  left: 188px;
+  width: 1064px;
+  height: 843px;
+  display: flex;
+}
+
+.box .line {
+  width: 3px;
+  height: 843px;
+}
+
+.box .img {
+  width: 3px;
+  height: 843px;
+  margin-left: 207px;
+}
+
+.box .line-2 {
+  width: 3px;
+  height: 843px;
+  margin-left: 212px;
+}
+
+.box .line-3 {
+  width: 3px;
+  height: 843px;
+  margin-left: 211px;
+}
+
+.box .line-4 {
+  width: 3px;
+  height: 843px;
+  margin-left: 208px;
+}
+
+.box .rectangle-11 {
+  position: absolute;
+  top: 474px;
+  left: 401px;
+  width: 212px;
+  height: 158px;
+  background-color: #77a2db;
+  opacity: 0.8;
+}
+
+.box .rectangle-12 {
+  position: absolute;
+  top: 420px;
+  left: 191px;
+  width: 207px;
+  height: 158px;
+  background-color: #db7777;
+  opacity: 0.8;
+}
+
+.box .rectangle-13 {
+  position: absolute;
+  top: 737px;
+  left: 191px;
+  width: 207px;
+  height: 155px;
+  background-color: #db7676;
+  opacity: 0.8;
+}
+
+.box .rectangle-14 {
+  position: absolute;
+  top: 421px;
+  left: 616px;
+  width: 212px;
+  height: 158px;
+  background-color: #7adb76;
+  opacity: 0.8;
+}
+
+.box .rectangle-15 {
+  position: absolute;
+  top: 737px;
+  left: 616px;
+  width: 212px;
+  height: 158px;
+  background-color: #db7676;
+  opacity: 0.8;
+}
+
+.box .rectangle-16 {
+  position: absolute;
+  top: 737px;
+  left: 1040px;
+  width: 212px;
+  height: 158px;
+  background-color: #db7676;
+  opacity: 0.8;
+}
+
+.box .rectangle-17 {
+  position: absolute;
+  top: 527px;
+  left: 1040px;
+  width: 212px;
+  height: 158px;
+  background-color: #c0db76;
+  opacity: 0.8;
+}
+
+.box .rectangle-18 {
+  position: absolute;
+  top: 474px;
+  left: 828px;
+  width: 212px;
+  height: 158px;
+  background-color: #76a2db;
+  opacity: 0.8;
+}
+
+.box .line-5 {
+  position: absolute;
+  top: 207px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-6 {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-7 {
+  position: absolute;
+  top: 366px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-8 {
+  position: absolute;
+  top: 631px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-9 {
+  position: absolute;
+  top: 684px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-10 {
+  position: absolute;
+  top: 737px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-11 {
+  position: absolute;
+  top: 790px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-12 {
+  position: absolute;
+  top: 838px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-13 {
+  position: absolute;
+  top: 891px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-14 {
+  position: absolute;
+  top: 419px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-15 {
+  position: absolute;
+  top: 472px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-16 {
+  position: absolute;
+  top: 525px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-17 {
+  position: absolute;
+  top: 578px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .line-18 {
+  position: absolute;
+  top: 96px;
+  left: 0;
+  width: 1440px;
+  height: 4px;
+}
+
+.box .line-19 {
+  position: absolute;
+  top: 938px;
+  left: 0;
+  width: 1440px;
+  height: 4px;
+}
+
+.box .image {
+  position: absolute;
+  top: 37px;
+  left: 1029px;
+  width: 29px;
+  height: 29px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.box .line-20 {
+  position: absolute;
+  top: 154px;
+  left: 0;
+  width: 1440px;
+  height: 5px;
+}
+
+.box .slice {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -130px;
+  left: 2611px;
+}
+
+.box .group-5 {
+  position: absolute;
+  top: 28px;
+  left: 30px;
+  width: 222px;
+  height: 50px;
+}
+
+.box .text-wrapper-27 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 179px;
+  font-family: "Josefin Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .logo {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 0;
+  left: 173px;
+  background-image: url(./img/image-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box .line-21 {
+  position: absolute;
+  top: 313px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.box .group-study {
+  position: absolute;
+  top: 423px;
+  left: 623px;
+  width: 198px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .holden-hall {
+  position: absolute;
+  top: 738px;
+  left: 193px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .engr-holden-hall {
+  top: 738px;
+  left: 617px;
+  position: absolute;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .holden-hall-2 {
+  top: 739px;
+  left: 1046px;
+  position: absolute;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .exam {
+  position: absolute;
+  top: 528px;
+  left: 1043px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .cultural-fest-TTU {
+  position: absolute;
+  top: 316px;
+  left: 1258px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .SI-session {
+  position: absolute;
+  top: 475px;
+  left: 832px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .SI-session-chem {
+  position: absolute;
+  top: 474px;
+  left: 408px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .COMC {
+  position: absolute;
+  top: 420px;
+  left: 193px;
+  font-family: "Afacad-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .p {
+  position: absolute;
+  top: 959px;
+  left: 10px;
+  font-family: "Huninn-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+/* Responsive calendar scaling */
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    transform-origin: top left;
+}
+
+/* =================================
+   CALENDAR GRID AND FONT CORRECTIONS
+================================= */
+
+/* CALENDAR GRID ONLY */
+
+.box .pedro-soares-moreira {
+    position: relative;
+}
+
+/* =====================================
+   STUDYPATH - CALENDAR GRID
+===================================== */
+
+.box .pedro-soares-moreira {
+    position: relative;
+}
+
+/* Vertical and horizontal calendar lines */
+.box .pedro-soares-moreira::before {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    top: 96px;
+
+    width: 1440px;
+    height: 844px;
+
+    pointer-events: none;
+    z-index: 0;
+
+    background-image:
+
+        /* VERTICAL LINES */
+        linear-gradient(
+            to right,
+            transparent 0 188px,
+            #222 188px 190px,
+            transparent 190px 398px,
+            #222 398px 400px,
+            transparent 400px 613px,
+            #222 613px 615px,
+            transparent 615px 827px,
+            #222 827px 829px,
+            transparent 829px 1038px,
+            #222 1038px 1040px,
+            transparent 1040px 1252px,
+            #222 1252px 1254px,
+            transparent 1254px 100%
+        ),
+
+        /* HORIZONTAL LINES */
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222),
+        linear-gradient(#222, #222);
+
+    background-position:
+        0 0,
+        0 0,
+        0 58px,
+        0 111px,
+        0 164px,
+        0 217px,
+        0 270px,
+        0 323px,
+        0 376px,
+        0 429px,
+        0 482px,
+        0 535px,
+        0 588px,
+        0 641px,
+        0 694px,
+        0 742px,
+        0 795px,
+        0 842px;
+
+    background-size:
+        100% 100%,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px,
+        100% 2px;
+
+    background-repeat: no-repeat;
+}
+
+
+/* Main calendar font */
+.box .pedro-soares-moreira * {
+    font-family: "Afacad", Arial, sans-serif;
+}
+
+/* Logo */
+.box .text-wrapper-27 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Footer */
+.box .p {
+    font-family: "Huninn", sans-serif;
+}
+
+/* HEADER BUTTON TEXT */
+
+.box .text-wrapper-24,
+.box .text-wrapper-25,
+.box .text-wrapper-26 {
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Afacad", Arial, sans-serif;
+    font-size: 28px;
+    line-height: 1;
+
+    white-space: nowrap;
+    text-align: center;
+}
+
+/* REMOVE BROKEN SEARCH ICON */
+
+.box .image {
+    display: none !important;
+}
+
+/* ADJUST SEARCH TEXT */
+
+.box .text-wrapper-23 {
+    left: 1035px;
+    top: 29px;
+    font-family: "AR One Sans", Arial, sans-serif;
+} 
+
+/* FONT CORRECTIONS */
+
+.box .pedro-soares-moreira * {
+    font-family: "Afacad", Arial, sans-serif;
+}
+
+.box .pedro-soares-moreira .text-wrapper-27 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.box .pedro-soares-moreira .p {
+    font-family: "Huninn", sans-serif;
+}
+
+.box .pedro-soares-moreira .text-wrapper-23 {
+    font-family: "AR One Sans", sans-serif;
+}
+
+/* BOTTOM BORDER - SEPARATES CALENDAR FROM FOOTER */
+
+.box .pedro-soares-moreira::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    top: 938px;
+
+    width: 1440px;
+    height: 2px;
+
+    background-color: #000000;
+
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* DATE 19 */
+.box .text-wrapper-28 {
+    position: absolute;
+    top: 104px;
+    left: 1040px;
+
+    font-family: "Afacad", Arial, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+
+    letter-spacing: 0;
+    line-height: normal;
+}
