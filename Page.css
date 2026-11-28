@@ -1,0 +1,111 @@
+.map-screen {
+  position: relative;
+  width: 1112px;
+  height: 791px;
+  margin: 0 auto;
+  background: var(--white);
+  border: 2px solid var(--black);
+  overflow: hidden;
+}
+
+.map-screen div,
+.map-screen img,
+.map-screen p {
+  position: absolute;
+  margin: 0;
+}
+
+.map-screen .rectangle   { left: 560px; top: 78px;  width: 552px; height: 646px; background: var(--grey-road-bg); }
+.map-screen .rectangle-2 { left: 562px; top: 93px;  width: 141px; height: 203px; background: var(--pink-building); }
+.map-screen .rectangle-3 { left: 562px; top: 316px; width: 141px; height: 194px; background: var(--pink-building); }
+.map-screen .rectangle-4 { left: 750px; top: 93px;  width: 360px; height: 203px; background: var(--pink-building); }
+.map-screen .rectangle-5 { left: 562px; top: 556px; width: 141px; height: 166px; background: var(--pink-building); }
+.map-screen .rectangle-6 { left: 739px; top: 556px; width: 144px; height: 166px; background: var(--pink-building); }
+.map-screen .rectangle-7 { left: 919px; top: 556px; width: 191px; height: 166px; background: var(--pink-building); }
+.map-screen .rectangle-8  { left: 712px; top: 78px;  width: 20px;  height: 646px; background: var(--black); }
+.map-screen .rectangle-9  { left: 560px; top: 524px; width: 552px; height: 20px;  background: var(--black); }
+.map-screen .rectangle-10 { left: 892px; top: 556px; width: 20px;  height: 168px; background: var(--black); }
+
+.map-screen .text-wrapper-college { left: 714px; top: 305px; width: 150px; transform: rotate(-90deg); transform-origin: left top; color: var(--white); font-size: 17px; }
+.map-screen .text-wrapper-1st { left: 887px; top: 525px; font-size: 17px; color: var(--white); white-space: nowrap; }
+.map-screen .text-wrapper-4th { left: 894px; top: 668px; width: 100px; transform: rotate(-90deg); transform-origin: left top; font-size: 17px; color: var(--white); white-space: nowrap; }
+
+.map-screen .route   { left: 923px; top: 298px; width: 0;     height: 101px; border-left: 5px dotted var(--route-blue); }
+.map-screen .route-2 { left: 722px; top: 397px; width: 205px; height: 0;     border-top: 5px dotted var(--route-blue); }
+.map-screen .route-3 { left: 720px; top: 399px; width: 0;     height: 233px; border-left: 5px dotted var(--route-blue); }
+
+.map-screen .component { left: 902px; top: 426px; width: 44px; height: 44px; border-radius: 50%; background: var(--parking-blue); }
+.map-screen .text-wrapper-p { left: 0; top: 0; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 24px; font-weight: bold; }
+
+.map-screen .image   { left: 606px; top: 178px; width: 50px; height: 37px; }
+.map-screen .image-2 { left: 780px; top: 606px; width: 63px; height: 59px; }
+.map-screen .text-wrapper-bang-map { left: 616px; top: 368px; font-size: 64px; font-weight: bold; color: var(--dark-red); line-height: 1; }
+
+.map-screen .pin { background: var(--red); border-radius: 50% 50% 50% 0; transform: rotate(-45deg); }
+.map-screen .pin::after { content: ""; position: absolute; left: 30%; top: 30%; width: 40%; height: 40%; border-radius: 50%; background: var(--white); }
+.map-screen .pin-map  { left: 909px; top: 172px; width: 32px; height: 32px; }
+.map-screen .pin-dest { left: 24px;  top: 104px; width: 24px; height: 24px; }
+.map-screen .pin-dir  { left: 473px; top: 586px; width: 17px; height: 17px; }
+
+.map-screen .text-wrapper     { left: 27px;  top: 20px; font-size: 30px; letter-spacing: 1px; color: var(--black); }
+.map-screen .text-wrapper-cap { left: 162px; top: 22px; font-size: 30px; }
+
+.map-screen .rectangle-11 { left: 226px; top: 20px; width: 154px; height: 40px; background: var(--grey-button); }
+.map-screen .rectangle-12 { left: 401px; top: 20px; width: 187px; height: 40px; background: var(--grey-button); }
+.map-screen .rectangle-13 { left: 609px; top: 20px; width: 153px; height: 40px; background: var(--grey-button); }
+.map-screen .rectangle-14 { left: 788px; top: 20px; width: 221px; height: 40px; background: var(--grey-button); }
+
+.map-screen .text-wrapper-2 { left: 248px; top: 28px; font-size: 22px; color: var(--black); }
+.map-screen .text-wrapper-3 { left: 425px; top: 28px; font-size: 22px; color: var(--black); }
+.map-screen .text-wrapper-4 { left: 643px; top: 28px; font-size: 22px; color: var(--black); }
+.map-screen .text-wrapper-5 { left: 828px; top: 26px; font-size: 26px; color: #555; }
+
+.map-screen .icon-search  { left: 796px; top: 27px; width: 26px; height: 26px; }
+.map-screen .ellipse      { left: 0; top: 0; width: 17px; height: 17px; border: 3px solid var(--black); border-radius: 50%; }
+.map-screen .handle       { left: 14px; top: 17px; width: 11px; height: 3px; background: var(--black); transform: rotate(45deg); transform-origin: left center; }
+.map-screen .icon-search-2 { left: 29px; top: 275px; width: 14px; height: 14px; }
+.map-screen .ellipse-2    { left: 0; top: 0; width: 10px; height: 10px; border: 2px solid var(--black); border-radius: 50%; }
+.map-screen .handle-2     { left: 8px; top: 10px; width: 6px; height: 2px; background: var(--black); transform: rotate(45deg); transform-origin: left center; }
+
+.map-screen .icon  { left: 1052px; top: 24px; width: 40px; height: 32px; }
+.map-screen .bar   { left: 0; top: 4px;  width: 40px; height: 4px; background: #444; }
+.map-screen .bar-2 { left: 0; top: 16px; width: 40px; height: 4px; background: #444; }
+.map-screen .bar-3 { left: 0; top: 28px; width: 40px; height: 4px; background: #444; }
+.map-screen .dot   { left: 32px; top: -4px; width: 14px; height: 14px; border-radius: 50%; background: var(--notify-red); }
+
+.map-screen .line   { left: 0;     top: 76px;  width: 1112px; height: 3px;   background: var(--black); }
+.map-screen .line-2 { left: 558px; top: 77px;  width: 3px;    height: 648px; background: var(--black); }
+.map-screen .line-3 { left: 0;     top: 252px; width: 560px;  height: 3px;   background: var(--black); }
+.map-screen .line-4 { left: 0;     top: 574px; width: 560px;  height: 3px;   background: var(--black); }
+.map-screen .line-5 { left: 0;     top: 724px; width: 1112px; height: 3px;   background: var(--black); }
+
+.map-screen .text-wrapper-6 { left: 69px; top: 113px; text-decoration: underline; }
+.map-screen .image-3 { left: 449px; top: 96px; width: 91px; height: 67px; }
+.map-screen .calculus { left: 19px;  top: 165px; }
+.map-screen .walk { left: 14px;  top: 215px; }
+.map-screen .bike { left: 125px; top: 215px; }
+.map-screen .car  { left: 262px; top: 215px; }
+
+.map-screen .rectangle-15 { left: 24px; top: 272px; width: 140px; height: 24px; border-radius: 12px; background: var(--grey-button); }
+.map-screen .text-wrapper-7 { left: 50px; top: 276px; font-size: 14px; color: #555; }
+.map-screen .text-wrapper-8 { left: 322px; top: 268px; font-size: 26px; color: var(--black); }
+
+.map-screen .image-4 { left: 20px; top: 309px; width: 34px; height: 25px; }
+.map-screen .text-wrapper-9 { left: 73px; top: 314px; text-decoration: underline; }
+.map-screen .statistics { left: 24px; top: 348px; }
+
+.map-screen .text-wrapper-bang { left: 30px; top: 390px; font-size: 38px; font-weight: bold; color: var(--dark-red); line-height: 1; }
+.map-screen .text-wrapper-10 { left: 74px; top: 400px; text-decoration: underline; }
+.map-screen .data-science { left: 24px; top: 434px; }
+
+.map-screen .logo { left: 24px; top: 480px; width: 26px; height: 30px; background: var(--red); border: 2px solid var(--black); color: var(--white); font-weight: bold; font-size: 20px; display: flex; align-items: center; justify-content: center; }
+.map-screen .text-wrapper-11 { left: 74px; top: 486px; text-decoration: underline; }
+.map-screen .football { left: 24px; top: 520px; }
+
+.map-screen .text-wrapper-12 { left: 14px; top: 584px; font-size: 26px; color: var(--black); }
+.map-screen .image-5 { left: 386px; top: 582px; width: 36px; height: 34px; }
+.map-screen .text-wrapper-arrow { left: 434px; top: 584px; font-size: 28px; line-height: 1; }
+.map-screen .text-wrapper-13 { left: 14px; top: 634px; }
+.map-screen .text-wrapper-14 { left: 14px; top: 668px; }
+
+.map-screen .p { left: 20px; top: 738px; font-size: 38px; color: var(--black); white-space: nowrap; }
